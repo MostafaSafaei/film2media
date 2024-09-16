@@ -1,0 +1,114 @@
+* {
+    direction: rtl;
+    font-family: Sahel;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../font/Sahel.eot');
+    src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'),
+         url('../font/Sahel.woff2') format('woff2'),
+         url('../font/Sahel.woff') format('woff');
+    font-weight: normal;
+  }
+
+.bg-page {
+    background-color: #bfcbd4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fs-8 {
+    font-size: smaller;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.container-banners {
+    max-width: 400px;
+    margin-inline: auto;
+  }
+
+.fs-9 {
+    font-size: 11px;
+}
+
+.text-orange {
+  color: #ff7316;
+}
+
+.border-dashed {
+  border-style: dashed !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.hard-sub {
+  position: absolute;
+  top: 25px;
+  left: -48px;
+  background: #ff0000a6;
+  color: white;
+  transform: rotate(-45deg);
+  z-index: 1;
+  padding: 5px 44px;
+  font-size: 12px;
+}
+
+.dobed {
+  position: absolute;
+  top: 15px;
+  right: -45px;
+  background: #0028ffa6;
+  transform: rotate(45deg);
+  padding: 5px 44px;
+  color: white;
+  font-size: 12px;
+}
+
+.as {
+  display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75px;
+    direction: ltr;
+}
